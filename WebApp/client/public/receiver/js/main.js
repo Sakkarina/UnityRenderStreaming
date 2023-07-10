@@ -105,6 +105,7 @@ async function onDisconnect(connectionId) {
     codecPreferences.disabled = false;
   }
   showPlayButton();
+  onClickPlayButton();
 }
 
 function setCodecPreferences() {
